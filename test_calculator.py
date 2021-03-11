@@ -8,3 +8,6 @@ class TestCalculator:
 
     def test_subtract(self):
         assert 2 == calculator.subtract(5, 3)
+
+    def test_multiply(self):
+        assert 12 == calculator.multiply(3, 4)
